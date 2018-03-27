@@ -1,4 +1,5 @@
 ﻿using System;
+using Alura.Curso.DesingPatterns.Strategy.Taxes;
 
 namespace Alura.Curso.DesingPatterns.Strategy
 {
@@ -6,7 +7,10 @@ namespace Alura.Curso.DesingPatterns.Strategy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TaxCalculator.Calculate(new Budget(100), new ICMS());
+	        TaxCalculator.Calculate(new Budget(100), new ISS());
+	        TaxCalculator.Calculate(new Budget(100), new IOF());
+			Console.ReadKey();
         }
     }
 }
