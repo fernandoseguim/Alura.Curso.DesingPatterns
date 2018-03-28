@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alura.Curso.DesingPatterns.Strategy", "Alura.Curso.DesingPatterns.Strategy\Alura.Curso.DesingPatterns.Strategy.csproj", "{B5D9CC3C-453C-41CD-9393-6E9BACB1EBF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alura.Curso.DesingPatterns.ChainOfResponsability", "Alura.Curso.DesingPatterns.ChainOfResponsability\Alura.Curso.DesingPatterns.ChainOfResponsability.csproj", "{9DD1F743-D549-44BE-8D95-BBF2BBA74C36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B5D9CC3C-453C-41CD-9393-6E9BACB1EBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D9CC3C-453C-41CD-9393-6E9BACB1EBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D9CC3C-453C-41CD-9393-6E9BACB1EBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD1F743-D549-44BE-8D95-BBF2BBA74C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD1F743-D549-44BE-8D95-BBF2BBA74C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD1F743-D549-44BE-8D95-BBF2BBA74C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD1F743-D549-44BE-8D95-BBF2BBA74C36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
